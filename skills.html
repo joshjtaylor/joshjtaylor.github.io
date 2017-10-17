@@ -43,7 +43,7 @@
 			<a href="portfolio-item.html">Singe Project</a>
 			</li>
 			<li>
-			<a href="page-sample.html">MY SKILLS</a>
+			<a href="skills.html">MY SKILLS</a>
 			</li>
 			<li>
 			<a href="contact.html">Hire me</a>
@@ -78,11 +78,78 @@
 	<div class="row">
 		<h2 class="text-center">EDUCATION</h2>
 		<div class="col-lg-8 col-lg-offset-2">
-			<p> blah </p>
+			<div style="width: 100%;">
+  				<div style="float:left; width: 35%">
+  					<br /><br /><br /><br /><br />
+  					<img src="img/SDSU.gif" alt="SDSU" height="202" width="290"><br /><br />
+					<center><p> Bachelor's in Computer Science | 2015-2019 </p></center>
+  					
+   				</div>
+   				<div style="float:right; width: 65%">
+   					<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    				<script type="text/javascript">
+      				google.charts.load('current', {'packages':['corechart']});
+      				google.charts.setOnLoadCallback(drawChart);
+
+      				function drawChart() {
+
+        				var data = google.visualization.arrayToDataTable([
+          				['Language Taught', 'Semesters practiced'],
+          				['Java',  3],
+          				['C',  2],
+          				['Assembly Language',  2],
+          				['C++',  1]
+          				
+        				]);
+
+        				var options = {
+        					title: 'Languages Taught in Classes (by Semester)',
+        					backgroundColor: '#F9F9F9',
+        					slices: {0: {color: '#C3003A'}, 1: {color: 'gray'}, 2: {color: '#DACA98'}, 3: {color: '#2B292A'}}
+        				};
+
+        				var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        				chart.draw(data, options);
+      				}
+    				</script>
+					<div id="piechart" style="width: 900px; height: 500px;"></div>
+   				</div>
+			</div>
+			
 		</div>
 		<h2 class="text-center">EXPERIENCE</h2>
 		<div class="col-lg-8 col-lg-offset-2">
-			<p> blah </p>
+			<div style="width: 100%;">
+				<div class="row">
+					<div class="col-lg-4" style="text-align:center;">
+						<img src="img/Data.png" alt="Data Analysis" height="130px" width="130px"><br /><br />
+						<h4>Data Analysis</h4>
+						<p><b>A4D</b> - Collected and presented data on product performance using Microsoft Excel. An emphasis on choosing winning ads and predicting trends.</p>
+					</div>
+					<div class="col-lg-4" style ="text-align: center;">
+						<img src="img/IT.png" alt="IT" height="130px" width="130px"><br /><br />
+						<h4>IT</h4>
+						<p><b>Rezcon</b> - Helped students and supported machines and systems in every dorm building on the SDSU Campus.</p>
+						<p><b>FIT Center</b> - Provided Faculty and Staff with technical support on SDSU licensed software.</p><br />
+					</div>
+					<div class="col-lg-4" style="text-align: center;">
+						<img src="img/Ad.png" alt="Advertising" height="130px" width="130px"><br /><br />
+						<h4>Affitiate Marketing</h4>
+						<p><b>A4D</b> - Advertised internal products on Facebook, Yahoo, and GDN. Developed sales funnels and custom advertorials.</p>
+					</div>
+
+				</div>
+  				<!-- <div style="float:left; width: 33%">
+  					<p> hi </p>
+   				</div>
+   				<div style="width: 34%">
+   					<center><p> hi </p></center>
+   				</div>	
+   				<div style="float:right; width: 33%">
+   					<p> hi </p>
+   				</div> -->
+			</div>
 		</div>
 		<h2 class="text-center">PROFESSIONAL SKILLS</h2>
 		<div class="col-lg-8 col-lg-offset-2">
@@ -103,9 +170,41 @@
 			<div style="clear:both"></div>
 		</div><br /><br />
 		<h2 class="text-center">PERSONAL SKILLS</h2>
-		<div class="col-lg-8 col-lg-offset-2">
-			<p> blah </p>
+			<div class="col-lg-8 col-lg-offset-2">
+				<center>
+					<div id="SkillBox">
+  					<div class="SkillBar">
+    					<div id="Skill-HTML"> 
+      						<span class="Skill-Area ">Communication</span>
+      						<span class="PercentText ">100%</span>
+    					</div>
+  					</div>
+  
+  					<div class="SkillBar">
+    					<div id="Skill-CSS">
+      						<span class="Skill-Area ">Leadership</span>
+      						<span class="PercentText ">80%</span>
+    					</div>
+ 					</div>
+
+  					<div class="SkillBar">
+    					<div id="Skill-jQuery">
+      						<span class="Skill-Area ">Teamwork</span>
+      						<span class="PercentText ">70%</span>
+    					</div>
+  					</div>
+  
+  					<div class="SkillBar">
+    					<div id="Skill-JS">
+      						<span class="Skill-Area ">Flexibility</span>
+      						<span class="PercentText ">70%</span>
+    					</div>
+  					</div>
+  
+				</div>
+			</center>
 		</div>
+		<a href="https://www.linkedin.com/in/joshjtaylor-cs/" class="btn btnghost btn-lg"><i class="fa fa-linkedin fa-fw"></i><span class="network-name">Resume</span></a>
 	</div>
 </div>
 </section>
